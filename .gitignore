@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 가상환경
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# 로그, PID, 캐시 등
+*.log
+*.pid
+*.sqlite3
+*.db
+*.lock
+*.cache/
+logs/
+*.tmp
+
+# 설정 파일
+token.txt
+*.env
+*.secret
+*.key
+*.pem
+*.crt
+
+# json
+*.json
+
+# 쉘 관련
+# *.sh~
+
+# Mac/Linux
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 기타 백업/임시파일
+*~
+*.bak
+*.swp
+*.swo
